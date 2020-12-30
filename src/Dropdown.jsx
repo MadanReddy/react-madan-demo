@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
   }
 }))
 
-function DemoDropdown() {
+function Dropdown() {
   const [selectedEmployee, setSelectedEmployees] = useState([])
   const [selectedSkills, setSelectedSkills] = useState([])
   const [selectedCities, setSelectedCities] = useState([])
