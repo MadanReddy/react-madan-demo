@@ -24,19 +24,9 @@ function DropdownExample() {
   const populateData = () => {
     const employeesData = [
       { id: 1, name: "Madan" },
-      { id: 2, name: "Leena" },
-      { id: 3, name: "WebDriver" },
-      { id: 4, name: "Session" },
-      { id: 5, name: "Interview" },
-
-      { id: 7, name: "Data" },
-      { id: 8, name: "Data2" },
-      { id: 9, name: "Data3" },
-      { id: 10, name: "Data4" },
-      { id: 11, name: "Data5" },
-      { id: 12, name: "Data6" },
-      { id: 13, name: "Data7" },
-      { id: 14, name: "Data8" }
+      { id: 2, name: "WebDriver" },
+      { id: 3, name: "Session" },
+      { id: 4, name: "Interview" }
     ];
     employees.forEach((v, i) => {
       v["path"] = `https://source.unsplash.com/random/${i}`;
